@@ -9,7 +9,12 @@
 
     public static void plusMinus(List<int> arr)
     {
-
+        double total = arr.Count();
+        Console.WriteLine(string.Join(Environment.NewLine, new[] {
+            arr.Count(s => s > 0) / total,
+            arr.Count(s => s < 0) / total,
+            arr.Count(s => s == 0) / total,
+        }.Select(s => s.ToString("N6"))));
     }
 
 }
