@@ -9,11 +9,14 @@
 
     public static void fizzBuzz(int n)
     {
-        var response = string.Empty;
-        if (n % 3 == 0) { response += "Fizz"; }
-        if (n % 5 == 0) { response += "Buzz"; }
-        if (response.Length == 0) { response = n.ToString(); }
-        Console.WriteLine(response);
+        for (var i = 1; i <= n; i++)
+        {
+            var response = string.Empty;
+            if (i % 3 == 0) { response += "Fizz"; }
+            if (i % 5 == 0) { response += "Buzz"; }
+            if (response.Length == 0) { response = i.ToString(); }
+            Console.WriteLine(response);
+        }
     }
 
 }
