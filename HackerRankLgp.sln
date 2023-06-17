@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeConversion", "TimeConve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{ADEFEDE9-3CE2-4CEE-8D28-704045BDF75C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTheMedian", "FindTheMedian\FindTheMedian.csproj", "{D8FDEBF0-B542-4B11-B26F-625B02E018CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{ADEFEDE9-3CE2-4CEE-8D28-704045BDF75C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADEFEDE9-3CE2-4CEE-8D28-704045BDF75C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADEFEDE9-3CE2-4CEE-8D28-704045BDF75C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8FDEBF0-B542-4B11-B26F-625B02E018CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FDEBF0-B542-4B11-B26F-625B02E018CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8FDEBF0-B542-4B11-B26F-625B02E018CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8FDEBF0-B542-4B11-B26F-625B02E018CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
