@@ -1,18 +1,4 @@
-﻿using System.CodeDom.Compiler;
-using System.Collections.Generic;
-using System.Collections;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Text.RegularExpressions;
-using System.Text;
-using System;
-
-class Result
+﻿class Result
 {
 
     /*
@@ -24,7 +10,13 @@ class Result
 
     public static List<int> countingSort(List<int> arr)
     {
-
+        var a = arr.ToArray();
+        var frequency = new int[a.Length];
+        for (var i = 0; i < a.Length; i++)
+        {
+            frequency[a[i]]++;
+        }
+        return frequency.ToList();
     }
 
 }
@@ -35,11 +27,11 @@ class Solution
     {
         TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-        int n = Convert.ToInt32(Console.ReadLine().Trim());
+        var n = Convert.ToInt32(Console.ReadLine().Trim());
 
-        List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
+        var arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
 
-        List<int> result = Result.countingSort(arr);
+        var result = Result.countingSort(arr);
 
         textWriter.WriteLine(String.Join(" ", result));
 
@@ -47,3 +39,4 @@ class Solution
         textWriter.Close();
     }
 }
+
