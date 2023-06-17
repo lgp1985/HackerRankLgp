@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTheMedian", "FindTheMedian\FindTheMedian.csproj", "{D8FDEBF0-B542-4B11-B26F-625B02E018CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewYearChaos", "NewYearChaos\NewYearChaos.csproj", "{23F440EA-8AF7-4BB8-ACA2-E34A81235B02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D8FDEBF0-B542-4B11-B26F-625B02E018CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8FDEBF0-B542-4B11-B26F-625B02E018CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8FDEBF0-B542-4B11-B26F-625B02E018CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23F440EA-8AF7-4BB8-ACA2-E34A81235B02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23F440EA-8AF7-4BB8-ACA2-E34A81235B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23F440EA-8AF7-4BB8-ACA2-E34A81235B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23F440EA-8AF7-4BB8-ACA2-E34A81235B02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
