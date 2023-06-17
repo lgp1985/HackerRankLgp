@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniMaxSum", "MiniMaxSum\Mi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeConversion", "TimeConversion\TimeConversion.csproj", "{402D97DC-F8FC-4456-81BF-E7BA3F5FEE5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{ADEFEDE9-3CE2-4CEE-8D28-704045BDF75C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{402D97DC-F8FC-4456-81BF-E7BA3F5FEE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{402D97DC-F8FC-4456-81BF-E7BA3F5FEE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{402D97DC-F8FC-4456-81BF-E7BA3F5FEE5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADEFEDE9-3CE2-4CEE-8D28-704045BDF75C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEFEDE9-3CE2-4CEE-8D28-704045BDF75C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEFEDE9-3CE2-4CEE-8D28-704045BDF75C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEFEDE9-3CE2-4CEE-8D28-704045BDF75C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
