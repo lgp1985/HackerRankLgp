@@ -1,18 +1,4 @@
-﻿using System.CodeDom.Compiler;
-using System.Collections.Generic;
-using System.Collections;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Text.RegularExpressions;
-using System.Text;
-using System;
-
-class Result
+﻿class Result
 {
 
     /*
@@ -24,7 +10,7 @@ class Result
 
     public static string timeConversion(string s)
     {
-
+        return TimeOnly.ParseExact(s, "hh:mm:sstt").ToString("HH:mm:ss");
     }
 
 }
@@ -35,9 +21,9 @@ class Solution
     {
         TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-        string s = Console.ReadLine();
+        var s = Console.ReadLine();
 
-        string result = Result.timeConversion(s);
+        var result = Result.timeConversion(s);
 
         textWriter.WriteLine(result);
 
