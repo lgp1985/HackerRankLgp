@@ -1,20 +1,4 @@
-﻿using System.CodeDom.Compiler;
-using System.Collections.Generic;
-using System.Collections;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Text.RegularExpressions;
-using System.Text;
-using System;
-
-
-
-class Result
+﻿class Result
 {
 
     /*
@@ -26,7 +10,10 @@ class Result
 
     public static int findMedian(List<int> arr)
     {
-
+        var count = arr.Count;
+        if (count % 2 == 0) { throw new Exception("out of scope"); }
+        arr.Sort();
+        return arr.ElementAt(arr.Count / 2);
     }
 
 }
@@ -37,11 +24,11 @@ class Solution
     {
         TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-        int n = Convert.ToInt32(Console.ReadLine().Trim());
+        var n = Convert.ToInt32(Console.ReadLine().Trim());
 
-        List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
+        var arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
 
-        int result = Result.findMedian(arr);
+        var result = Result.findMedian(arr);
 
         textWriter.WriteLine(result);
 
