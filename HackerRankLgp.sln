@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagonalDifference", "Diago
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingSort1", "CountingSort1\CountingSort1.csproj", "{499170FC-A539-4AA3-B5F3-FA47526E1728}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlippingTheMatrix", "FlippingTheMatrix\FlippingTheMatrix.csproj", "{FF6937F2-77A5-4738-9B68-B9D1E1003B2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{499170FC-A539-4AA3-B5F3-FA47526E1728}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{499170FC-A539-4AA3-B5F3-FA47526E1728}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{499170FC-A539-4AA3-B5F3-FA47526E1728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF6937F2-77A5-4738-9B68-B9D1E1003B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6937F2-77A5-4738-9B68-B9D1E1003B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6937F2-77A5-4738-9B68-B9D1E1003B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6937F2-77A5-4738-9B68-B9D1E1003B2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
