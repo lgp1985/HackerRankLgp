@@ -1,18 +1,4 @@
-﻿using System.CodeDom.Compiler;
-using System.Collections.Generic;
-using System.Collections;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Text.RegularExpressions;
-using System.Text;
-using System;
-
-class Result
+﻿class Result
 {
 
     /*
@@ -23,7 +9,14 @@ class Result
 
     public static void minimumBribes(List<int> q)
     {
-
+        var maxBribe = q.Select((sticker, position) => new { sticker, position = position + 1 })
+            .Select(s => Math.Max(0, s.sticker - s.position))
+            .Max();
+        var sumBribes = q.Select((sticker, position) => new { sticker, position })
+            .Aggregate(seed: 0, func: (bribe, element) => bribe + q
+                .Take(new Range(Math.Max(0, element.sticker - 3), element.position))
+                .Count(previousElement => previousElement > element.sticker));
+        Console.WriteLine(maxBribe > 2 ? "Too chaotic" : sumBribes);
     }
 
 }
@@ -32,13 +25,13 @@ class Solution
 {
     public static void Main(string[] args)
     {
-        int t = Convert.ToInt32(Console.ReadLine().Trim());
+        var t = Convert.ToInt32(Console.ReadLine().Trim());
 
-        for (int tItr = 0; tItr < t; tItr++)
+        for (var tItr = 0; tItr < t; tItr++)
         {
-            int n = Convert.ToInt32(Console.ReadLine().Trim());
+            var n = Convert.ToInt32(Console.ReadLine().Trim());
 
-            List<int> q = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(qTemp => Convert.ToInt32(qTemp)).ToList();
+            var q = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(qTemp => Convert.ToInt32(qTemp)).ToList();
 
             Result.minimumBribes(q);
         }
