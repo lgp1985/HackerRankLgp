@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewYearChaos", "NewYearChao
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LonelyInteger", "LonelyInteger\LonelyInteger.csproj", "{B4754912-C0C9-4D68-842B-8E21C16D757B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagonalDifference", "DiagonalDifference\DiagonalDifference.csproj", "{26AC66AC-4727-4834-8B3C-4095E332995C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{B4754912-C0C9-4D68-842B-8E21C16D757B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4754912-C0C9-4D68-842B-8E21C16D757B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4754912-C0C9-4D68-842B-8E21C16D757B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26AC66AC-4727-4834-8B3C-4095E332995C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26AC66AC-4727-4834-8B3C-4095E332995C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26AC66AC-4727-4834-8B3C-4095E332995C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26AC66AC-4727-4834-8B3C-4095E332995C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
