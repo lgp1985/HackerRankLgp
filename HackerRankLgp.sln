@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusMinus", "PlusMinus\PlusMinus.csproj", "{068058C6-CFC6-4F16-AD4F-646DBB1BCC72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlusMinus", "PlusMinus\PlusMinus.csproj", "{068058C6-CFC6-4F16-AD4F-646DBB1BCC72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniMaxSum", "MiniMaxSum\MiniMaxSum.csproj", "{3B2CA469-95F2-4B62-827F-40C81D8BC66D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{068058C6-CFC6-4F16-AD4F-646DBB1BCC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{068058C6-CFC6-4F16-AD4F-646DBB1BCC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{068058C6-CFC6-4F16-AD4F-646DBB1BCC72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2CA469-95F2-4B62-827F-40C81D8BC66D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2CA469-95F2-4B62-827F-40C81D8BC66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2CA469-95F2-4B62-827F-40C81D8BC66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2CA469-95F2-4B62-827F-40C81D8BC66D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
