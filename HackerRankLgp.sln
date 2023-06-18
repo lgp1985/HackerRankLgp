@@ -23,6 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingSort1", "CountingSo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlippingTheMatrix", "FlippingTheMatrix\FlippingTheMatrix.csproj", "{FF6937F2-77A5-4738-9B68-B9D1E1003B2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZigZagSequence", "ZigZagSequence\ZigZagSequence.csproj", "{80DE253E-3347-4A5A-B827-8D859F991B9F}"
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +70,10 @@ Global
 		{FF6937F2-77A5-4738-9B68-B9D1E1003B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF6937F2-77A5-4738-9B68-B9D1E1003B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF6937F2-77A5-4738-9B68-B9D1E1003B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80DE253E-3347-4A5A-B827-8D859F991B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80DE253E-3347-4A5A-B827-8D859F991B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80DE253E-3347-4A5A-B827-8D859F991B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80DE253E-3347-4A5A-B827-8D859F991B9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
