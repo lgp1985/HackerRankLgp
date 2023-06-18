@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaesarCipher", "CaesarCiphe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeIndex", "PalindromeIndex\PalindromeIndex.csproj", "{A0F46986-CBDB-41D6-A8D5-ABD03BEDBED5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridChallenge", "GridChallenge\GridChallenge.csproj", "{FED9C25C-61E7-479A-AB7B-8056FADC623A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{A0F46986-CBDB-41D6-A8D5-ABD03BEDBED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0F46986-CBDB-41D6-A8D5-ABD03BEDBED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0F46986-CBDB-41D6-A8D5-ABD03BEDBED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED9C25C-61E7-479A-AB7B-8056FADC623A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED9C25C-61E7-479A-AB7B-8056FADC623A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED9C25C-61E7-479A-AB7B-8056FADC623A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED9C25C-61E7-479A-AB7B-8056FADC623A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
