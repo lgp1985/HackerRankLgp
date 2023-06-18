@@ -8,11 +8,11 @@
      * The function accepts STRING s as parameter.
      */
 
-    public static int palindromeIndex(string s)
+    public static int palindromeIndex(ReadOnlySpan<char> s)
     {
         var start = 0;
         var end = s.Length - 1;
-        while (start < end && s.ElementAt(start) == s.ElementAt(end))
+        while (start < end && s[start] == s[end])
         {
             start++;
             end--;
@@ -22,9 +22,9 @@
         if (isPalindrome(s, start, end - 1)) return end;
         return -1;
     }
-    public static bool isPalindrome(string s, int start, int end)
+    public static bool isPalindrome(ReadOnlySpan<char> s, int start, int end)
     {
-        while (start < end && s.ElementAt(start) == s.ElementAt(end))
+        while (start < end && s[start] == s[end])
         {
             start++;
             end--;
