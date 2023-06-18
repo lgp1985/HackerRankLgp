@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeIndex", "Palindro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridChallenge", "GridChallenge\GridChallenge.csproj", "{FED9C25C-61E7-479A-AB7B-8056FADC623A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperDigit", "SuperDigit\SuperDigit.csproj", "{E1199412-7EBC-42C6-8F09-AD2A54AEA924}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{FED9C25C-61E7-479A-AB7B-8056FADC623A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FED9C25C-61E7-479A-AB7B-8056FADC623A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FED9C25C-61E7-479A-AB7B-8056FADC623A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1199412-7EBC-42C6-8F09-AD2A54AEA924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1199412-7EBC-42C6-8F09-AD2A54AEA924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1199412-7EBC-42C6-8F09-AD2A54AEA924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1199412-7EBC-42C6-8F09-AD2A54AEA924}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

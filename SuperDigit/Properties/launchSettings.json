@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GridChallenge": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "OUTPUT_PATH": ".\\a"
+      }
+    }
+  }
+}
