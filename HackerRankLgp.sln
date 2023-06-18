@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperDigit", "SuperDigit\Su
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckTour", "TruckTour\TruckTour.csproj", "{B3ADC485-C911-4EF7-AEF9-0FED88899996}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeTwoSortedLinkedLists", "MergeTwoSortedLinkedLists\MergeTwoSortedLinkedLists.csproj", "{71AC39C0-2BEB-4126-BD6A-CAA0E91A8078}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{B3ADC485-C911-4EF7-AEF9-0FED88899996}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3ADC485-C911-4EF7-AEF9-0FED88899996}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3ADC485-C911-4EF7-AEF9-0FED88899996}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71AC39C0-2BEB-4126-BD6A-CAA0E91A8078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71AC39C0-2BEB-4126-BD6A-CAA0E91A8078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71AC39C0-2BEB-4126-BD6A-CAA0E91A8078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71AC39C0-2BEB-4126-BD6A-CAA0E91A8078}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
