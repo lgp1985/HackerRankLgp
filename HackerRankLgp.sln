@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZigZagSequence", "ZigZagSeq
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowerBreakers", "TowerBreakers\TowerBreakers.csproj", "{13EAB426-821C-4766-ABD6-81C34826E784}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaesarCipher", "CaesarCipher\CaesarCipher.csproj", "{B042136C-EA18-48D9-A5ED-B18D86CB4DCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{13EAB426-821C-4766-ABD6-81C34826E784}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13EAB426-821C-4766-ABD6-81C34826E784}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13EAB426-821C-4766-ABD6-81C34826E784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B042136C-EA18-48D9-A5ED-B18D86CB4DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B042136C-EA18-48D9-A5ED-B18D86CB4DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B042136C-EA18-48D9-A5ED-B18D86CB4DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B042136C-EA18-48D9-A5ED-B18D86CB4DCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
