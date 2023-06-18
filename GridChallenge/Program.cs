@@ -1,18 +1,4 @@
-﻿using System.CodeDom.Compiler;
-using System.Collections.Generic;
-using System.Collections;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Text.RegularExpressions;
-using System.Text;
-using System;
-
-class Result
+﻿class Result
 {
 
     /*
@@ -24,7 +10,21 @@ class Result
 
     public static string gridChallenge(List<string> grid)
     {
-
+        var list = new List<IOrderedEnumerable<char>>();
+        foreach (var item in grid)
+        {
+            list.Add(item.ToCharArray().OrderBy(c => c));
+        }
+        for (var i = 0; i < grid.First().Length; i++)
+        {
+            var col = new string(list.Select(s => s.ElementAt(i)).ToArray());
+            var orderedCol = new string(col.OrderBy(c => c).ToArray());
+            if (col != orderedCol)
+            {
+                return "NO";
+            }
+        }
+        return "YES";
     }
 
 }
@@ -35,21 +35,21 @@ class Solution
     {
         TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-        int t = Convert.ToInt32(Console.ReadLine().Trim());
+        var t = Convert.ToInt32(Console.ReadLine().Trim());
 
-        for (int tItr = 0; tItr < t; tItr++)
+        for (var tItr = 0; tItr < t; tItr++)
         {
-            int n = Convert.ToInt32(Console.ReadLine().Trim());
+            var n = Convert.ToInt32(Console.ReadLine().Trim());
 
-            List<string> grid = new List<string>();
+            var grid = new List<string>();
 
-            for (int i = 0; i < n; i++)
+            for (var i = 0; i < n; i++)
             {
-                string gridItem = Console.ReadLine();
+                var gridItem = Console.ReadLine();
                 grid.Add(gridItem);
             }
 
-            string result = Result.gridChallenge(grid);
+            var result = Result.gridChallenge(grid);
 
             textWriter.WriteLine(result);
         }
