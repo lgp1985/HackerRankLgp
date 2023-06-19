@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTextEditor", "SimpleT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegoBlocks", "LegoBlocks\LegoBlocks.csproj", "{82EA2EB0-F5BF-40F5-BA33-4644119C2B9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JesseAndCookies", "JesseAndCookies\JesseAndCookies.csproj", "{9A01A1BC-D617-4458-9350-0952066CB31F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{82EA2EB0-F5BF-40F5-BA33-4644119C2B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82EA2EB0-F5BF-40F5-BA33-4644119C2B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82EA2EB0-F5BF-40F5-BA33-4644119C2B9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A01A1BC-D617-4458-9350-0952066CB31F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A01A1BC-D617-4458-9350-0952066CB31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A01A1BC-D617-4458-9350-0952066CB31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A01A1BC-D617-4458-9350-0952066CB31F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
