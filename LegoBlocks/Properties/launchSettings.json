@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LegoBlocks": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "OUTPUT_PATH": ".\\a"
+      }
+    }
+  }
+}
