@@ -1,18 +1,4 @@
-﻿using System.CodeDom.Compiler;
-using System.Collections.Generic;
-using System.Collections;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Text.RegularExpressions;
-using System.Text;
-using System;
-
-class Result
+﻿public class Result
 {
 
     /*
@@ -24,7 +10,20 @@ class Result
 
     public static string isBalanced(string s)
     {
+        bool isMatch(char open, char close) => open switch { '{' => '}', '[' => ']', '(' => ')' } == close;
 
+        var stack = new Stack<char>();
+        foreach (var elm in s.AsSpan())
+            if (new[] { '{', '[', '(' }.Any(s => elm == s))
+                stack.Push(elm);
+            else if (new[] { '}', ']', ')' }.Any(s => elm == s))
+                if (!stack.TryPop(out var fromStack) || !isMatch(fromStack, elm))
+                    return "NO";
+
+        if (stack.Count == 0)
+            return "YES";
+        else
+            return "NO";
     }
 
 }
@@ -35,13 +34,13 @@ class Solution
     {
         TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-        int t = Convert.ToInt32(Console.ReadLine().Trim());
+        var t = Convert.ToInt32(Console.ReadLine().Trim());
 
-        for (int tItr = 0; tItr < t; tItr++)
+        for (var tItr = 0; tItr < t; tItr++)
         {
-            string s = Console.ReadLine();
+            var s = Console.ReadLine();
 
-            string result = Result.isBalanced(s);
+            var result = Result.isBalanced(s);
 
             textWriter.WriteLine(result);
         }

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "BalancedBrackets": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "OUTPUT_PATH": ".\\a"
+      }
+    }
+  }
+}
