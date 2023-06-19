@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "BreadthFirstSearchShortestReach": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "OUTPUT_PATH": ".\\a"
+      }
+    }
+  }
+}
