@@ -1,22 +1,12 @@
-﻿using System.CodeDom.Compiler;
-using System.Collections.Generic;
-using System.Collections;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Text.RegularExpressions;
-using System.Text;
-using System;
-
-
-
-class Result
+﻿class Result
 {
-
+    /*
+2
+4 2
+1 2
+1 3
+1
+*/
     /*
      * Complete the 'bfs' function below.
      *
@@ -28,9 +18,72 @@ class Result
      *  4. INTEGER s
      */
 
+    public static int V;
+    public static List<int>[] adj;
+    public static int[] distance;
+    public static bool[] visited;
+    public static void addEdge(int u, int v)
+    {
+        adj[u].Add(v);
+        adj[v].Add(u);
+    }
+    public static void initialize(int VV, int m, List<List<int>> edges)
+    {
+        V = VV;
+        visited = new bool[V + 1];
+        distance = new int[V + 1];
+        adj = new List<int>[V + 1];
+        for (var i = 0; i <= V; i++)
+        {
+            adj[i] = new List<int>();
+        }
+        for (var i = 0; i < m; i++)
+        {
+            addEdge(edges[i][0], edges[i][1]);
+        }
+    }
+
     public static List<int> bfs(int n, int m, List<List<int>> edges, int s)
     {
+        initialize(n, m, edges);
+        var q = new Queue<int>();
+        var result = new int[n - 1];
+        q.Enqueue(s);
+        visited[s] = true;
+        distance[s] = 0;
+        while (q.Count() != 0)
+        {
+            var parent = q.Dequeue();
+            foreach (var w in adj[parent])
+            {
+                if (!visited[w])
+                {
+                    q.Enqueue(w);
+                    distance[w] = distance[parent] + 6;
+                    visited[w] = true;
+                }
+            }
 
+        }
+        var original = 1;
+        var trimmed = 0;
+        while (original != n + 1)
+        {
+            if (original == s)
+            {
+                original += 1;
+                continue;
+            }
+            result[trimmed] = distance[original];
+            if (distance[original] == 0)
+            {
+                result[trimmed] = -1;
+            }
+            original += 1;
+            trimmed += 1;
+        }
+
+        return result.ToList();
     }
 
 }
@@ -41,26 +94,26 @@ class Solution
     {
         TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-        int q = Convert.ToInt32(Console.ReadLine().Trim());
+        var q = Convert.ToInt32(Console.ReadLine().Trim());
 
-        for (int qItr = 0; qItr < q; qItr++)
+        for (var qItr = 0; qItr < q; qItr++)
         {
-            string[] firstMultipleInput = Console.ReadLine().TrimEnd().Split(' ');
+            var firstMultipleInput = Console.ReadLine().TrimEnd().Split(' ');
 
-            int n = Convert.ToInt32(firstMultipleInput[0]);
+            var n = Convert.ToInt32(firstMultipleInput[0]);
 
-            int m = Convert.ToInt32(firstMultipleInput[1]);
+            var m = Convert.ToInt32(firstMultipleInput[1]);
 
-            List<List<int>> edges = new List<List<int>>();
+            var edges = new List<List<int>>();
 
-            for (int i = 0; i < m; i++)
+            for (var i = 0; i < m; i++)
             {
                 edges.Add(Console.ReadLine().TrimEnd().Split(' ').ToList().Select(edgesTemp => Convert.ToInt32(edgesTemp)).ToList());
             }
 
-            int s = Convert.ToInt32(Console.ReadLine().Trim());
+            var s = Convert.ToInt32(Console.ReadLine().Trim());
 
-            List<int> result = Result.bfs(n, m, edges, s);
+            var result = Result.bfs(n, m, edges, s);
 
             textWriter.WriteLine(String.Join(" ", result));
         }
