@@ -5,39 +5,43 @@ VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlusMinus", "PlusMinus\PlusMinus.csproj", "{068058C6-CFC6-4F16-AD4F-646DBB1BCC72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniMaxSum", "MiniMaxSum\MiniMaxSum.csproj", "{3B2CA469-95F2-4B62-827F-40C81D8BC66D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniMaxSum", "MiniMaxSum\MiniMaxSum.csproj", "{3B2CA469-95F2-4B62-827F-40C81D8BC66D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeConversion", "TimeConversion\TimeConversion.csproj", "{402D97DC-F8FC-4456-81BF-E7BA3F5FEE5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeConversion", "TimeConversion\TimeConversion.csproj", "{402D97DC-F8FC-4456-81BF-E7BA3F5FEE5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{ADEFEDE9-3CE2-4CEE-8D28-704045BDF75C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{ADEFEDE9-3CE2-4CEE-8D28-704045BDF75C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTheMedian", "FindTheMedian\FindTheMedian.csproj", "{D8FDEBF0-B542-4B11-B26F-625B02E018CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindTheMedian", "FindTheMedian\FindTheMedian.csproj", "{D8FDEBF0-B542-4B11-B26F-625B02E018CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewYearChaos", "NewYearChaos\NewYearChaos.csproj", "{23F440EA-8AF7-4BB8-ACA2-E34A81235B02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewYearChaos", "NewYearChaos\NewYearChaos.csproj", "{23F440EA-8AF7-4BB8-ACA2-E34A81235B02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LonelyInteger", "LonelyInteger\LonelyInteger.csproj", "{B4754912-C0C9-4D68-842B-8E21C16D757B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LonelyInteger", "LonelyInteger\LonelyInteger.csproj", "{B4754912-C0C9-4D68-842B-8E21C16D757B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagonalDifference", "DiagonalDifference\DiagonalDifference.csproj", "{26AC66AC-4727-4834-8B3C-4095E332995C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiagonalDifference", "DiagonalDifference\DiagonalDifference.csproj", "{26AC66AC-4727-4834-8B3C-4095E332995C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingSort1", "CountingSort1\CountingSort1.csproj", "{499170FC-A539-4AA3-B5F3-FA47526E1728}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountingSort1", "CountingSort1\CountingSort1.csproj", "{499170FC-A539-4AA3-B5F3-FA47526E1728}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlippingTheMatrix", "FlippingTheMatrix\FlippingTheMatrix.csproj", "{FF6937F2-77A5-4738-9B68-B9D1E1003B2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlippingTheMatrix", "FlippingTheMatrix\FlippingTheMatrix.csproj", "{FF6937F2-77A5-4738-9B68-B9D1E1003B2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZigZagSequence", "ZigZagSequence\ZigZagSequence.csproj", "{80DE253E-3347-4A5A-B827-8D859F991B9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZigZagSequence", "ZigZagSequence\ZigZagSequence.csproj", "{80DE253E-3347-4A5A-B827-8D859F991B9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowerBreakers", "TowerBreakers\TowerBreakers.csproj", "{13EAB426-821C-4766-ABD6-81C34826E784}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TowerBreakers", "TowerBreakers\TowerBreakers.csproj", "{13EAB426-821C-4766-ABD6-81C34826E784}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaesarCipher", "CaesarCipher\CaesarCipher.csproj", "{B042136C-EA18-48D9-A5ED-B18D86CB4DCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaesarCipher", "CaesarCipher\CaesarCipher.csproj", "{B042136C-EA18-48D9-A5ED-B18D86CB4DCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeIndex", "PalindromeIndex\PalindromeIndex.csproj", "{A0F46986-CBDB-41D6-A8D5-ABD03BEDBED5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeIndex", "PalindromeIndex\PalindromeIndex.csproj", "{A0F46986-CBDB-41D6-A8D5-ABD03BEDBED5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridChallenge", "GridChallenge\GridChallenge.csproj", "{FED9C25C-61E7-479A-AB7B-8056FADC623A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GridChallenge", "GridChallenge\GridChallenge.csproj", "{FED9C25C-61E7-479A-AB7B-8056FADC623A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperDigit", "SuperDigit\SuperDigit.csproj", "{E1199412-7EBC-42C6-8F09-AD2A54AEA924}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperDigit", "SuperDigit\SuperDigit.csproj", "{E1199412-7EBC-42C6-8F09-AD2A54AEA924}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckTour", "TruckTour\TruckTour.csproj", "{B3ADC485-C911-4EF7-AEF9-0FED88899996}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TruckTour", "TruckTour\TruckTour.csproj", "{B3ADC485-C911-4EF7-AEF9-0FED88899996}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeTwoSortedLinkedLists", "MergeTwoSortedLinkedLists\MergeTwoSortedLinkedLists.csproj", "{71AC39C0-2BEB-4126-BD6A-CAA0E91A8078}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeTwoSortedLinkedLists", "MergeTwoSortedLinkedLists\MergeTwoSortedLinkedLists.csproj", "{71AC39C0-2BEB-4126-BD6A-CAA0E91A8078}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueUsingTwoStacks", "QueueUsingTwoStacks\QueueUsingTwoStacks.csproj", "{F5CFE690-EE63-439C-9B1F-7028C28D6F08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalancedBrackets", "BalancedBrackets\BalancedBrackets.csproj", "{8FA1C1B6-3141-4E26-BC1C-41A214687C52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +121,14 @@ Global
 		{71AC39C0-2BEB-4126-BD6A-CAA0E91A8078}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71AC39C0-2BEB-4126-BD6A-CAA0E91A8078}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71AC39C0-2BEB-4126-BD6A-CAA0E91A8078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5CFE690-EE63-439C-9B1F-7028C28D6F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CFE690-EE63-439C-9B1F-7028C28D6F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5CFE690-EE63-439C-9B1F-7028C28D6F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CFE690-EE63-439C-9B1F-7028C28D6F08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA1C1B6-3141-4E26-BC1C-41A214687C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA1C1B6-3141-4E26-BC1C-41A214687C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA1C1B6-3141-4E26-BC1C-41A214687C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA1C1B6-3141-4E26-BC1C-41A214687C52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
