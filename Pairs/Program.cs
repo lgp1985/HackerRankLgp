@@ -1,20 +1,4 @@
-﻿using System.CodeDom.Compiler;
-using System.Collections.Generic;
-using System.Collections;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Text.RegularExpressions;
-using System.Text;
-using System;
-
-
-
-class Result
+﻿class Result
 {
 
     /*
@@ -28,7 +12,13 @@ class Result
 
     public static int pairs(int k, List<int> arr)
     {
-
+        var tuples = new List<(int, int)>();
+        foreach (var item in arr)
+        {
+            if (arr.Contains(item + k))
+                tuples.Add((item, item + k));
+        }
+        return tuples.Count;
     }
 
 }
@@ -39,15 +29,15 @@ class Solution
     {
         TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-        string[] firstMultipleInput = Console.ReadLine().TrimEnd().Split(' ');
+        var firstMultipleInput = Console.ReadLine().TrimEnd().Split(' ');
 
-        int n = Convert.ToInt32(firstMultipleInput[0]);
+        var n = Convert.ToInt32(firstMultipleInput[0]);
 
-        int k = Convert.ToInt32(firstMultipleInput[1]);
+        var k = Convert.ToInt32(firstMultipleInput[1]);
 
-        List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
+        var arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
 
-        int result = Result.pairs(k, arr);
+        var result = Result.pairs(k, arr);
 
         textWriter.WriteLine(result);
 

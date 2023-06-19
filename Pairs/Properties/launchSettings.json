@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Pairs": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "OUTPUT_PATH": ".\\a"
+      }
+    }
+  }
+}
