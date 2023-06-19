@@ -29,12 +29,13 @@
             _ = graph[edge[1]].AddLast(edge[0]);
         }
 
-        var q = new Queue<int>();
-        q.Enqueue(s);
         var visited = Enumerable.Range(1, n).ToDictionary(s => s, s => false);
         var distance = new Dictionary<int, int>();
         visited[s] = true;
         distance[s] = 0;
+
+        var q = new Queue<int>();
+        q.Enqueue(s);
         while (q.Count != 0)
         {
             var parent = q.Dequeue();
@@ -47,7 +48,6 @@
                     visited[w] = true;
                 }
             }
-
         }
 
         var result = Enumerable.Range(2, n - 1).Select(s => distance.TryGetValue(s, out var d) ? d : -1);
