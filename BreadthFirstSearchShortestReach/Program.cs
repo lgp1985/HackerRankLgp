@@ -18,43 +18,27 @@
      *  4. INTEGER s
      */
 
-    public static int V;
-    public static List<int>[] adj;
-    public static int[] distance;
-    public static bool[] visited;
-    public static void addEdge(int u, int v)
-    {
-        adj[u].Add(v);
-        adj[v].Add(u);
-    }
-    public static void initialize(int VV, int m, List<List<int>> edges)
-    {
-        V = VV;
-        visited = new bool[V + 1];
-        distance = new int[V + 1];
-        adj = new List<int>[V + 1];
-        for (var i = 0; i <= V; i++)
-        {
-            adj[i] = new List<int>();
-        }
-        for (var i = 0; i < m; i++)
-        {
-            addEdge(edges[i][0], edges[i][1]);
-        }
-    }
-
     public static List<int> bfs(int n, int m, List<List<int>> edges, int s)
     {
-        initialize(n, m, edges);
+        var graph = new Dictionary<int, LinkedList<int>>(n);
+        for (var i = 1; i <= n; i++)
+            graph.Add(i, new LinkedList<int>());
+        foreach (var edge in edges)
+        {
+            _ = graph[edge[0]].AddLast(edge[1]);
+            _ = graph[edge[1]].AddLast(edge[0]);
+        }
+
         var q = new Queue<int>();
-        var result = new int[n - 1];
         q.Enqueue(s);
+        var visited = Enumerable.Range(1, n).ToDictionary(s => s, s => false);
+        var distance = new Dictionary<int, int>();
         visited[s] = true;
         distance[s] = 0;
-        while (q.Count() != 0)
+        while (q.Count != 0)
         {
             var parent = q.Dequeue();
-            foreach (var w in adj[parent])
+            foreach (var w in graph[parent])
             {
                 if (!visited[w])
                 {
@@ -65,24 +49,8 @@
             }
 
         }
-        var original = 1;
-        var trimmed = 0;
-        while (original != n + 1)
-        {
-            if (original == s)
-            {
-                original += 1;
-                continue;
-            }
-            result[trimmed] = distance[original];
-            if (distance[original] == 0)
-            {
-                result[trimmed] = -1;
-            }
-            original += 1;
-            trimmed += 1;
-        }
 
+        var result = Enumerable.Range(2, n - 1).Select(s => distance.TryGetValue(s, out var d) ? d : -1);
         return result.ToList();
     }
 
