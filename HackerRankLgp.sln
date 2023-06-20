@@ -55,7 +55,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JesseAndCookies", "JesseAnd
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreadthFirstSearchShortestReach", "BreadthFirstSearchShortestReach\BreadthFirstSearchShortestReach.csproj", "{7F45F91C-B30D-4213-8238-4FDCEE5BA998}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreePreorderTraversal", "TreePreorderTraversal\TreePreorderTraversal.csproj", "{70FDAFBC-96C4-41BC-842F-4403DE3EFC31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreePreorderTraversal", "TreePreorderTraversal\TreePreorderTraversal.csproj", "{70FDAFBC-96C4-41BC-842F-4403DE3EFC31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoPrefixSet", "NoPrefixSet\NoPrefixSet.csproj", "{E133C66E-A52E-4780-982F-5787A4DE43B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,10 @@ Global
 		{70FDAFBC-96C4-41BC-842F-4403DE3EFC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70FDAFBC-96C4-41BC-842F-4403DE3EFC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70FDAFBC-96C4-41BC-842F-4403DE3EFC31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E133C66E-A52E-4780-982F-5787A4DE43B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E133C66E-A52E-4780-982F-5787A4DE43B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E133C66E-A52E-4780-982F-5787A4DE43B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E133C66E-A52E-4780-982F-5787A4DE43B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
