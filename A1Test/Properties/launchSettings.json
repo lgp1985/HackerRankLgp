@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "A1Test": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "OUTPUT_PATH": ".\\a"
+      }
+    }
+  }
+}
