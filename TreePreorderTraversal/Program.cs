@@ -15,9 +15,14 @@
         public Node? right { get; set; }
     }
 
-    public static void preOrder(Node root)
+    public static void preOrder(Node? root)
     {
         /* Enter your code here. */
+        if (root is null)
+            return;
+        Console.Write("{0} ", root.data);
+        preOrder(root.left);
+        preOrder(root.right);
     }
 
     public static Node insert(Node? root, int data)
