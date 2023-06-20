@@ -50,7 +50,7 @@
             }
         }
 
-        var result = Enumerable.Range(2, n - 1).Select(s => distance.TryGetValue(s, out var d) ? d : -1);
+        var result = Enumerable.Range(1, n).Where(w => w != s).Select(w => distance.TryGetValue(w, out var p) && p > 0 ? p : -1);
         return result.ToList();
     }
 
