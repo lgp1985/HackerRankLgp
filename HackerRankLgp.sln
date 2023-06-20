@@ -41,19 +41,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeTwoSortedLinkedLists",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueUsingTwoStacks", "QueueUsingTwoStacks\QueueUsingTwoStacks.csproj", "{F5CFE690-EE63-439C-9B1F-7028C28D6F08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalancedBrackets", "BalancedBrackets\BalancedBrackets.csproj", "{8FA1C1B6-3141-4E26-BC1C-41A214687C52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BalancedBrackets", "BalancedBrackets\BalancedBrackets.csproj", "{8FA1C1B6-3141-4E26-BC1C-41A214687C52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalancedBrackets.Test", "BalancedBrackets.Test\BalancedBrackets.Test.csproj", "{B96CE59B-6298-42B5-BC7B-D048D5F34178}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BalancedBrackets.Test", "BalancedBrackets.Test\BalancedBrackets.Test.csproj", "{B96CE59B-6298-42B5-BC7B-D048D5F34178}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pairs", "Pairs\Pairs.csproj", "{1B210A87-4817-44A3-859F-27DC361AC04E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pairs", "Pairs\Pairs.csproj", "{1B210A87-4817-44A3-859F-27DC361AC04E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTextEditor", "SimpleTextEditor\SimpleTextEditor.csproj", "{EFF86AE8-6296-445C-8E37-C924E5241ACA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleTextEditor", "SimpleTextEditor\SimpleTextEditor.csproj", "{EFF86AE8-6296-445C-8E37-C924E5241ACA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegoBlocks", "LegoBlocks\LegoBlocks.csproj", "{82EA2EB0-F5BF-40F5-BA33-4644119C2B9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LegoBlocks", "LegoBlocks\LegoBlocks.csproj", "{82EA2EB0-F5BF-40F5-BA33-4644119C2B9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JesseAndCookies", "JesseAndCookies\JesseAndCookies.csproj", "{9A01A1BC-D617-4458-9350-0952066CB31F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JesseAndCookies", "JesseAndCookies\JesseAndCookies.csproj", "{9A01A1BC-D617-4458-9350-0952066CB31F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreadthFirstSearchShortestReach", "BreadthFirstSearchShortestReach\BreadthFirstSearchShortestReach.csproj", "{7F45F91C-B30D-4213-8238-4FDCEE5BA998}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreadthFirstSearchShortestReach", "BreadthFirstSearchShortestReach\BreadthFirstSearchShortestReach.csproj", "{7F45F91C-B30D-4213-8238-4FDCEE5BA998}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreePreorderTraversal", "TreePreorderTraversal\TreePreorderTraversal.csproj", "{70FDAFBC-96C4-41BC-842F-4403DE3EFC31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{7F45F91C-B30D-4213-8238-4FDCEE5BA998}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F45F91C-B30D-4213-8238-4FDCEE5BA998}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F45F91C-B30D-4213-8238-4FDCEE5BA998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70FDAFBC-96C4-41BC-842F-4403DE3EFC31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70FDAFBC-96C4-41BC-842F-4403DE3EFC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70FDAFBC-96C4-41BC-842F-4403DE3EFC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70FDAFBC-96C4-41BC-842F-4403DE3EFC31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
